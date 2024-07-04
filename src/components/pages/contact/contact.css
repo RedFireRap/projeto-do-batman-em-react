@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    background-image: url('../../../assets/logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid black;
+    backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+input {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+p {
+    color: #FFF;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #d21617;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #d21617;
+    font-size: 1.2rem;
+    top: 20px;
+}
+
+.forget {
+    display: flex;
+    color:#FFF;
+    justify-content: space-between;
+    font-family: 'Kdam Thmor Pro' sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+    color: #d21617;
+    text-align: center;
+}
+
+.inputbox label{
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #FFF;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.forget label {
+    display: flex;
+    align-items: center;
+}
+
+.forget label input {
+    margin-right: 3rem;
+}
+
+forget a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #d21617;
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    margin: 3px;
+}
+
+button:hover{
+    background-color: #FFF;
+    color: black;
+}
+
+.registrar {
+    color: #FFF;
+    text-align: center; 
+    text-decoration: none; 
+}
+
+.registrar p a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.registrar p a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    width: 150px;
+    height: 80px;
+}
+

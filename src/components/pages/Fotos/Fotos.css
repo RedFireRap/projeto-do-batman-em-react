@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.atores-container {
+    width: 100%;
+    height: 3%;
+    background-color: black;
+}
+
+.cards-content {
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    row-gap: 15px;
+}
+
+.cards {
+    width: 95%;
+    height: 700px;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 2s;
+    margin: 5px;
+    display: flex;
+    color: white;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.baner-1 {
+    background-image: url('https://feira.tangerina.news/wp-content/uploads/2022/02/batman.jpg');
+    background-position: center;
+}   
+
+.baner-2 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/02/Charada-em-The-Batman.jpg');
+    background-position: center;
+}
+
+.baner-3 {
+    background-image: url('https://images7.alphacoders.com/120/1200686.jpg');
+    background-position: center;
+}
+
+.baner-4 {
+    background-image: url('../../../assets/alfred.webp');
+    background-position: center;
+}
+
+.baner-5 {
+    background-image: url('../../../assets/gordon.webp');
+    background-position: center;
+}
+
+.baner-6 {
+    background-image: url('https://sm.ign.com/ign_br/cover/t/the-batman/the-batman_1zjm.jpg');
+    background-position: center;
+} 
+
+@media (max-width: 425px){
+    
+    nav {
+        display: flex;
+        width: 100%;
+    }
+
+    #logo {
+        width: 25%;
+    }
+
+    .cards-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+
+    .cards {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Fundo-container {
+        display: grid;
+        width: 100%;
+    }
+
+    span {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px){
+    
+    nav {
+        display: flex;
+        width: 100%;
+    }
+
+    #logo {
+        width: 25%;
+    }
+
+    .cards-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+
+    .cards {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Fundo-container {
+        display: grid;
+        width: 100%;
+    }
+
+    span {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1024){
+    
+    nav {
+        display: flex;
+        width: 100%;
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    .cards-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+
+    .cards {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #Fundo-container {
+        display: grid;
+        width: 100%;
+    }
+
+    span {
+        font-size: 17px;
+    }
+}
+
